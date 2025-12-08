@@ -4,9 +4,9 @@ COUNT=1
 while [ $COUNT -le 20 ]; do
 echo "$COUNT"
 case $COUNT in
-4) echo "bad luck from China" ;;&nbsp;
-9) echo "bad luck from Japan" ;;&nbsp;
-17) echo "bad luck from Italy" ;;&nbsp;
+4) echo "bad luck from China" ;;
+9) echo "bad luck from Japan" ;;
+17) echo "bad luck from Italy" ;;
 esac
 COUNT=$((COUNT + 1))
 done
